@@ -14,11 +14,11 @@ Além da versão desenvolvida em grupo, também criei uma versão individual sim
 
 Versão individual — Estudo e aprendizagem
 
-"Preview da versão individual" (docs/images/versao-individual.png)
+![Preview](previewversaoinicial.jpg)
 
 Versão final — Projeto em grupo
 
-"Preview da versão final" (docs/images/versao-final.png)
+![Preview](preview1.jpg)
 
 ## ✨ Funcionalidades
 
@@ -79,15 +79,16 @@ A versão final foi desenvolvida em grupo, com a colaboração de três integran
 
 ## 🎯 Contexto acadêmico
 
-Instituição | IFCE
-Curso | Técnico em Informática
-Disciplina | Desenvolvimento Web I
-Modalidade | Individual (versão de estudo) e em grupo (versão final)
+- Instituição: IFCE
+- Curso: Técnico em Informática
+- Disciplina: Desenvolvimento Web I
+- Modalidade: Individual (versão de estudo) e em grupo (versão final)
 
 ## 🌐 Acesse o projeto
 
-- Demonstração: "Visualizar jogo" (LINK_DA_DEMONSTRACAO)
-- Código-fonte: disponível neste repositório.
+🔗 Site: https://esthefanysouza.github.io/Hangman-Game/ (versão inicial)
+https://esthefanysouza.github.io/Hangman-Game/versaofinal/paginainicial.html (versão final)
+💻 Código: https://github.com/esthefanysouza/Hangman-Game/tree/main
 
 ## 👩‍💻 Autoria
 
