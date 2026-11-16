@@ -406,3 +406,138 @@ body.inicio {
     padding: 18px 40px;
     font-size: clamp(1.2rem, 5vw, 2em);
 }
+
+/* =================================
+   PÁGINA INICIAL - RESPONSIVIDADE
+================================= */
+
+.pagina-inicial {
+    min-height: 100vh;
+    min-height: 100svh;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 30px 15px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #8c52ff;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Organização geral */
+
+.pagina-inicial .conteudo {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Título */
+
+.pagina-inicial .palavra {
+    position: static;
+    margin: 0;
+    padding: 0;
+
+    font-size: clamp(45px, 9vw, 90px);
+    font-weight: bold;
+    line-height: 1.1;
+    color: black;
+}
+
+/* Lupa e letra A */
+
+.pagina-inicial .destaque {
+    position: relative;
+    width: min(300px, 75vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina-inicial .lupa {
+    position: static;
+    display: block;
+
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Letra dentro da lupa */
+
+.pagina-inicial #foco {
+    position: absolute;
+
+    left: 28%;
+    top: 5%;
+
+    font-size: clamp(65px, 15vw, 110px);
+    font-weight: bold;
+    color: black;
+}
+
+/* Botão jogar */
+
+.pagina-inicial .botao {
+    position: static;
+    display: inline-block;
+
+    margin: 10px 0 0;
+    padding: 18px 45px;
+
+    font-size: clamp(22px, 5vw, 32px);
+    font-weight: bold;
+
+    color: #000;
+    background-color: #ffe403;
+
+    border: none;
+    border-radius: 25px;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagina-inicial .botao:hover {
+    background-color: #e5c72e;
+}
+
+/* Ajustes para celulares */
+
+@media (max-width: 480px) {
+
+    .pagina-inicial {
+        padding: 25px 15px;
+    }
+
+    .pagina-inicial .conteudo {
+        gap: 22px;
+    }
+
+    .pagina-inicial .palavra {
+        font-size: clamp(42px, 12vw, 58px);
+    }
+
+    .pagina-inicial .destaque {
+        width: min(260px, 75vw);
+    }
+
+    .pagina-inicial .botao {
+        padding: 15px 40px;
+        border-radius: 20px;
+    }
+}
